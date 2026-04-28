@@ -9,6 +9,12 @@ __pycache__/
 build/
 dist/
 .eggs/
+
+# Vendored web assets — these directory names collide with the generic
+# build/ and dist/ rules above but ship as part of the Odoo source tree.
+!odoo/addons/web/static/lib/bootstrap/dist/
+!odoo/addons/web/static/lib/bootstrap/js/dist/
+!odoo/addons/web/static/lib/pdfjs/build/
 pip-wheel-metadata/
 MANIFEST
 

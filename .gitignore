@@ -42,3 +42,7 @@ odoo.conf
 # Node (in case any addon pulled them in)
 node_modules/
 .claude
+
+# Debian packaging files must always be tracked
+!odoo/debian/
+!odoo/debian/**
